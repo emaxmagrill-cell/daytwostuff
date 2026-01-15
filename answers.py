@@ -25,8 +25,10 @@ data.head()
 # 8. We use a requirements.txt file to list all the dependencies and their versions needed for a project. This allows for easy installation of the required packages. 
 # %%
 # Recipe: 
-# 1. create a new repo
-# 2. create a virtual environment
-# 3. activate the virtual environment
-# 4. create a requirements.txt file
-# 5. install necessary packages and their versions using pip install package==version
+# 1. create a new repo on github
+# 2. create a virtual environment using python3 -m venv .venv
+# 3. activate the virtual environment using source .venv/bin/activate
+# 4. create a requirements.txt file using the commmand nano requirements.txt
+# 5. install necessary packages and their versions using pip install package==version and adding the installed packages to the requirements.txt using pip freeze > requirements.txt
+# 6. complete your project whatever it may be
+# 7. push your code to github using git add ., git commit -m "message", and git push origin main
